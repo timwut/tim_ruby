@@ -693,10 +693,6 @@ todays_wishes = WishMaker.new
 
 #End Chapter 5 - this is starting to sound like object oriented. 
 
+#code academy notes
 
-
-
-
-
-
-
+# != used to check if two values are *not* equal (comparator)
