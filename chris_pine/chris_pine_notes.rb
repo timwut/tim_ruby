@@ -10,7 +10,7 @@ public class HelloWorld {
 
 puts 'Hello World'
 
-# L O L at the differene here. 
+# L O L at the difference here. 
 
 #Java example 2 - program that does "nothing"
 
@@ -18,7 +18,7 @@ public class DoNothing {
   public static void main(String[] args) {
   }
 }
-# This pretty much says = "I'm a java program and I don't do anythi. 
+# This pretty much says = "I'm a java program and I don't do anything. 
 
 # Rule 1: Avoid duplication of code (DRY) - Don't Repeat Yourself. 
 
@@ -807,4 +807,6 @@ while request != 'stop'
   puts
 end
 
+#String Interpolation:
 
+#{number_of_bottles} == number_of_bottles.to_s

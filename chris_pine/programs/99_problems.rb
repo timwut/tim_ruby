@@ -1,4 +1,23 @@
-#Build 99_beers.rb
+#99_problems.rb
+
+problems = 99
+
+while problems != 0
+  puts 'Hova, do you have girl problems?'
+  hovas_respone = gets.chomp
+
+if hovas_respone == 'yes'
+    puts
+    puts 'If you got girl problems I feel bad for you son.'
+    puts 'Cause I got ' + problems.to_s + ' problems but a bitch ain\'t one.'
+elsif hovas_response = 'no' || hovas_response = 'No'
+    puts 'Well, then have a good day, sir.'
+  break
+end
+
+puts
+problems = problems - 1  
+end
 
 =begin
 Sudo Code
@@ -12,9 +31,11 @@ Sudo Code
 # => Everytime he says yes, takes one off the counter.
 =end
 
+# Old Code, written from - I think it's pretty ugly, and it doesn't do what I want it to. 
 # As a loop, this isn't a really good application.
 # Need to manufacture a way so that we don't have to repeat the code.
 
+=begin 
 problems = 99
 
   while problems != 0
